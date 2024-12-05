@@ -10,11 +10,11 @@ $ cd ss-tiktok-scrapper
 $ go mod init tiktok-scraper
 $ go mod tidy
 # Run the program 
-$ go run ssstiktok.go <tiktok_url>
+$ go run sstiktok.go <tiktok_url>
 ```
 
 ## Output Example
-````bash
+```bash
 Result:
     Username:       @user
     Description:    This is an example video description.
@@ -29,4 +29,4 @@ Result:
         Overlay URL:    https://example.com/overlay.jpg
         Video URL:      https://example.com/video.mp4
         Music URL:      https://example.com/music.mp3
-````
+```
